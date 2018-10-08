@@ -25,18 +25,18 @@ weight = 7
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = ""
+  description = "ggplot2, Rmarkdown, tidy data, lavaan"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = ""  
+  description = "Bayesian Data Analysis, Spatial Statistics, Time Series/Longitudinal Modeling, Structural Equation Modeling, Social Network Analysis, Survey Design and Administration."  
   
-[[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  description = ""
+# [[feature]]
+#  icon = "camera-retro"
+#  icon_pack = "fas"
+#  name = "Photography"
+#  description = ""
 
 +++

@@ -10,9 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Sociology of Religion",
-    "Clergy Mental Health",
-    "Survey and Statistical Methods"
+    "The processes which protects white privilege in the United Methodist appointment process",
+    "Black-white differences in mental and physical health of clergy",
+    "Perceived and received social support and their impact on mental health",
+    "How intra-denominational social networks impact the health of clergy",
+    "The role of selection processes in explaining poor clergy health"
   ]
 
 # List your qualifications (such as academic degrees).
