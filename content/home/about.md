@@ -44,13 +44,12 @@ weight = 5
   year = 1997
  
 +++
+### Biography
 
-# Biography
+I am an Associate in Research at the [Center for Health Policy and Inequalities Research](www.chpir.org) and the [Duke Global Health Institute](globalhealth.duke.edu). I am an expert on the health of religious clergy, the changing shape of churches in North American society, and the implications of these trends for the professional training of ministers.
 
-I am an Associate in Research at the Center for Health Policy and Inequalities Research at Duke University. I am an expert on the health of religious clergy, the changing shape of the churches in North American society, and the implications of these trends for the professional training of ministers.
+Substantively, I have a strong interest in the social and structural determinants of mental health and and how organizational processes create racial disparities among professional workers.
 
-I am skilled in the collection and analysis of survey data, including longitudinal data and social network information. 
+Methodologically, I am skilled in the collection and analysis of survey data, including longitudinal and social network data. 
 
-I hold a PhD in Sociology from Duke University with a focus on the sociology of religion and quantitative research methods.  My dissertation looked at the causes and consequences of the increasing prevalence of very large churches in the United States. 
-
-My research is published in the Annals of Behavioral Medicine, the American Journal of Preventive Medicine, Social Networks, the Journal of Social History, the Journal for the Scientific Study of Religion, the Review of Religious Research and Research in the Sociology of Work.
+My research is published in the Journal of Social and Personal Relationships, the Annals of Behavioral Medicine, the American Journal of Preventive Medicine, Social Networks, the Journal of Social History, the Journal for the Scientific Study of Religion, the Review of Religious Research.
