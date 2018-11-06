@@ -1,15 +1,15 @@
 ---
-title: "Creating the Reltrad Variable in the General Social Survey Using R"
-author: "David Eagle, PhD"
-date: "2018-11-06"
-slug: reltrad-R
+title: Creating the Reltrad Variable in the General Social Survey Using R
+author: David Eagle, PhD
+date: '2018-11-06'
 categories:
-  - R
   - Measuring religion
+  - R
 tags:
   - Reltrad
+slug: reltrad-R
 output: html_document
-bibliography: "/Users/dee4/Box Sync/Projects/BibTexFile/MyLibrary.bib"
+bibliography: /Users/dee4/Box Sync/Projects/BibTexFile/MyLibrary.bib
 header:
   caption: ''
   image: ''
