@@ -4,7 +4,7 @@ library(car)
 library(tidyverse)
 library(descr) #Get the rocking CrossTable Function! Weighted! crosstab
 #This is where the R dataset will live:
-urldata = url("https://github.com/thebigbird/academic/raw/master/static/gss7216.data")
+urldata = url("https://github.com/thebigbird/academic/raw/master/static/files/gss7216.data")
 #
 load(urldata)
 #recode into 5 major categories of religious affiliation
