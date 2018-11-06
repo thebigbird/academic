@@ -26,7 +26,12 @@ This code takes a GSS datafile and then recodes religious affiliation into the _
 
 I've written this code in vanilla R, but resorted to the _car_ package for easier recoding. The code is pretty well commented, but tweet at me or email me if you have questions.
 
+
+The original R source code for the _reltrad_ recoding can be accessed from GitHub [here](https://github.com/thebigbird/academic/blob/master/content/post/ReltradGSS.R).
+
+
 ```{r include=T, eval=FALSE}
+#Not run
 #Get the GSS data, import into a temp file and unzip
 #read in the GSS data
 #Convert to R data format
@@ -46,6 +51,8 @@ gss =  gss %>% select(relig, other, race, denom, year, attend, id, wtss)
 save(gss, file=file)
 ```
 
+Now, here is the full code to create _reltrad_ in R. The data is hosted on my github account and downloaded directly from there. Feel free to fork this code and add your own file path.
+
 ```{r echo=FALSE}
 knitr::read_chunk("ReltradGSS.R")
 ```
@@ -59,17 +66,6 @@ The following table looks at how the religious composition of the US has changed
 ```{r ReltradTable}
 
 ```
-### Smaller Religious Groups - Can We Do better?
-
-There are a couple of major problems with this measure:
-
-1. It creates a very heterogeneous other religion category, which should be disaggregated, even if the groups are small
-
-2. It doesn't divide Black Protestants into mainline and evangelical denominations. 
-
-3. The other christian groups are pretty hetergeneous 
-
-My feeling is that we should have a separate category for Muslims as they are a large and distinct enough group. I think a case can be made to combine Buddhists, Hindus, Sikhs, and Jains into their own separate group. There should be a non-traditional group and separate categories for Jehovah Witnesses, Mormons, and Orthodox Christians. But these groups are still such a small proportion of the population that the practical implications of including other religious groups in a more sophisticated way pretty limited.
 
 ### References
 

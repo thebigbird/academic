@@ -22,7 +22,9 @@
 &lt;p&gt;I am providing an R translation of the code. I apply this to the 1972-2016 GSS combined data file.&lt;/p&gt;
 &lt;p&gt;This code takes a GSS datafile and then recodes religious affiliation into the &lt;em&gt;reltrad&lt;/em&gt; scheme created by Steensland et al. It breaks the US population into Conservative Protestant, Mainline Protestant, Black Protestant, Jewish, Other, and Non-Affiliated.&lt;/p&gt;
 &lt;p&gt;I’ve written this code in vanilla R, but resorted to the &lt;em&gt;car&lt;/em&gt; package for easier recoding. The code is pretty well commented, but tweet at me or email me if you have questions.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Get the GSS data, import into a temp file and unzip
+&lt;p&gt;The original R source code for the &lt;em&gt;reltrad&lt;/em&gt; recoding can be accessed from GitHub &lt;a href=&#34;https://github.com/thebigbird/academic/blob/master/content/post/ReltradGSS.R&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Not run
+#Get the GSS data, import into a temp file and unzip
 #read in the GSS data
 #Convert to R data format
 #Save
@@ -39,13 +41,14 @@ load(file)
 #Get the variables we want, this is a huge dataset.
 gss =  gss %&amp;gt;% select(relig, other, race, denom, year, attend, id, wtss)
 save(gss, file=file)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now, here is the full code to create &lt;em&gt;reltrad&lt;/em&gt; in R. The data is hosted on my github account and downloaded directly from there. Feel free to fork this code and add your own file path.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(car)
 library(tidyverse)
 library(descr) #Get the rocking CrossTable Function! Weighted! crosstab
 #This is where the R dataset will live:
-file = &amp;quot;OrigData/gss7216.data&amp;quot;
+urldata = url(&amp;quot;https://github.com/thebigbird/academic/raw/master/static/gss7216.data&amp;quot;)
 #
-load(file)
+load(urldata)
 #recode into 5 major categories of religious affiliation
 # 1) Protestant [Ask DENOM] 1371    47.8
 # 2) Catholic
@@ -301,16 +304,6 @@ gss$year = as.factor(gss$year)&lt;/code&gt;&lt;/pre&gt;
 ##                 18.1%       22.1%        1.2%       28.6%    4.4%   25.6%
 ##                  3.4%        3.3%        2.9%        3.9%    6.4%    8.6%
 ## =========================================================================&lt;/code&gt;&lt;/pre&gt;
-&lt;div id=&#34;smaller-religious-groups---can-we-do-better&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Smaller Religious Groups - Can We Do better?&lt;/h3&gt;
-&lt;p&gt;There are a couple of major problems with this measure:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;It creates a very heterogeneous other religion category, which should be disaggregated, even if the groups are small&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;It doesn’t divide Black Protestants into mainline and evangelical denominations.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The other christian groups are pretty hetergeneous&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;My feeling is that we should have a separate category for Muslims as they are a large and distinct enough group. I think a case can be made to combine Buddhists, Hindus, Sikhs, and Jains into their own separate group. There should be a non-traditional group and separate categories for Jehovah Witnesses, Mormons, and Orthodox Christians. But these groups are still such a small proportion of the population that the practical implications of including other religious groups in a more sophisticated way pretty limited.&lt;/p&gt;
-&lt;/div&gt;
 &lt;div id=&#34;references&#34; class=&#34;section level3 unnumbered&#34;&gt;
 &lt;h3&gt;References&lt;/h3&gt;
 &lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;

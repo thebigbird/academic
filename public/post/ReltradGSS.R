@@ -4,9 +4,9 @@ library(car)
 library(tidyverse)
 library(descr) #Get the rocking CrossTable Function! Weighted! crosstab
 #This is where the R dataset will live:
-file = "OrigData/gss7216.data"
+urldata = url("https://github.com/thebigbird/academic/raw/master/static/gss7216.data")
 #
-load(file)
+load(urldata)
 #recode into 5 major categories of religious affiliation
 # 1) Protestant [Ask DENOM]	1371	47.8
 # 2) Catholic
