@@ -1,0 +1,76 @@
+---
+title: "Creating the Reltrad Variable in the General Social Survey Using R"
+author: "David Eagle, PhD"
+date: "2018-11-06"
+slug: reltrad-R
+categories:
+  - R
+  - Measuring religion
+tags:
+  - Reltrad
+output: html_document
+bibliography: "/Users/dee4/Box Sync/Projects/BibTexFile/MyLibrary.bib"
+header:
+  caption: ''
+  image: ''
+---
+Haven't you always wanted an easy to access R script to create the famous _reltrad_ religious categorizaton in the General Social Survey? Well, today is your lucky day.
+
+The measure of religious affiliation described in [@steenslandMeasureAmericanReligion2000], otherwise known as _reltrad_, remains the most popular way to categorize people religiously in the United States. Early development of the measure was done by Corwin Smidt, Bud Kellstedt and James Guth during their annual seminars on measuring religion offered at Calvin College. The _reltrad_ crowd continues to think their measure is pretty good [@woodberryMeasureAmericanReligious2012]. A _reltrad_ for African Americans has been developed - this is required reading for those who use _reltrad_ in their research [@sheltonBlackReltradMeasuring2017].
+
+Up until now, the code to create the _reltrad_ variable from the [General Social Survey](http://gss.norc.org/) has only been available in Stata. Stata code for _reltrad_ is available from [Lifeway Research](http://lifewayresearch.com/wp-content/uploads/2016/02/Stata_coding_reltrad_2_19_2016.pdf).
+
+I am providing an R translation of the code. I apply this to the 1972-2016 GSS combined data file.
+
+This code takes a GSS datafile and then recodes religious affiliation into the _reltrad_ scheme created by Steensland et al. It breaks the US population into Conservative Protestant, Mainline Protestant, Black Protestant, Jewish, Other, and Non-Affiliated.
+
+I've written this code in vanilla R, but resorted to the _car_ package for easier recoding. The code is pretty well commented, but tweet at me or email me if you have questions.
+
+```{r include=T, eval=FALSE}
+#Get the GSS data, import into a temp file and unzip
+#read in the GSS data
+#Convert to R data format
+#Save
+library(dplyr)
+temp <- tempfile()
+download.file("http://gss.norc.org/documents/stata/GSS_stata.zip",temp)
+unzip(temp, files="GSS7216_R4.DTA",exdir = "OrigData")
+unlink(temp);rm(temp)
+gss = haven::read_dta("OrigData/GSS7216_R4.DTA")
+save(gss, file = file)
+#Load the data
+load(file)
+#
+#Get the variables we want, this is a huge dataset.
+gss =  gss %>% select(relig, other, race, denom, year, attend, id, wtss)
+save(gss, file=file)
+```
+
+```{r echo=FALSE}
+knitr::read_chunk("ReltradGSS.R")
+```
+
+```{r ReltradCode, message=FALSE, warning=FALSE}
+
+```
+
+The following table looks at how the religious composition of the US has changed over time. This uses the very useful wrapper _crosstab( )_ for the _CrossTable( )_ function in the package  [descr](https://cran.r-project.org/web/packages/descr/descr.pdf). It allows you to make weighted crosstabs easily and prettily. In subsequent posts, I will have some fun with ggplot to visual these data.
+
+```{r ReltradTable}
+
+```
+### Smaller Religious Groups - Can We Do better?
+
+There are a couple of major problems with this measure:
+
+1. It creates a very heterogeneous other religion category, which should be disaggregated, even if the groups are small
+
+2. It doesn't divide Black Protestants into mainline and evangelical denominations. 
+
+3. The other christian groups are pretty hetergeneous 
+
+My feeling is that we should have a separate category for Muslims as they are a large and distinct enough group. I think a case can be made to combine Buddhists, Hindus, Sikhs, and Jains into their own separate group. There should be a non-traditional group and separate categories for Jehovah Witnesses, Mormons, and Orthodox Christians. But these groups are still such a small proportion of the population that the practical implications of including other religious groups in a more sophisticated way pretty limited.
+
+### References
+
+

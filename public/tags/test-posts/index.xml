@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test posts on David Eagle, PhD.</title>
+    <link>/tags/test-posts/</link>
+    <description>Recent content in Test posts on David Eagle, PhD.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 08 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/test-posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hello-world/</guid>
+      <description>This is a test post.
+x = c(1,2,3) y = c(4,5,6) plot(x,y) </description>
+    </item>
+    
+  </channel>
+</rss>
