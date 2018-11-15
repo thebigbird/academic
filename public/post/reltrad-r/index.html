@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 2.4.0">
-  <meta name="generator" content="Hugo 0.49" />
+  <meta name="generator" content="Source Themes Academic 3.1.1">
+  <meta name="generator" content="Hugo 0.51" />
   <meta name="author" content="David Eagle">
 
   
@@ -33,7 +33,7 @@ The measure of religious affiliation described in (Steensland et al. 2000), othe
   
   
   
-  <meta name="theme-color" content="#0095eb">
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -43,7 +43,7 @@ The measure of religious affiliation described in (Steensland et al. 2000), othe
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
 
     
@@ -68,7 +68,7 @@ The measure of religious affiliation described in (Steensland et al. 2000), othe
 
   
   
-  <link rel="stylesheet" href=//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
 
   <link rel="stylesheet" href="/styles.css">
@@ -254,9 +254,24 @@ The measure of religious affiliation described in (Steensland et al. 2000), othe
 
 
 
-  <div class="article-container">
-    <h1 itemprop="name">Creating the Reltrad Variable in the General Social Survey Using R</h1>
 
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Creating the Reltrad Variable in the General Social Survey Using R</h1>
+
+  
+
+  
     
 
 <div class="article-metadata">
@@ -350,9 +365,34 @@ The measure of religious affiliation described in (Steensland et al. 2000), othe
 
 </div>
 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Haven’t you always wanted an easy to access R script to create the famous <em>reltrad</em> religious categorizaton in the General Social Survey? Well, today is your lucky day.</p>
+      
+
+
+<p>Haven’t you always wanted an easy to access R script to create the famous <em>reltrad</em> religious categorizaton in the General Social Survey? Well, today is your lucky day.</p>
 <p>The measure of religious affiliation described in <span class="citation">(Steensland et al. 2000)</span>, otherwise known as <em>reltrad</em>, remains the most popular way to categorize people religiously in the United States. Early development of the measure was done by Corwin Smidt, Bud Kellstedt and James Guth during their annual seminars on measuring religion offered at Calvin College. The <em>reltrad</em> crowd continues to think their measure is pretty good <span class="citation">(Woodberry et al. 2012)</span>. A <em>reltrad</em> for African Americans has been developed - this is required reading for those who use <em>reltrad</em> in their research <span class="citation">(Shelton and Cobb 2017)</span>.</p>
 <p>Up until now, the code to create the <em>reltrad</em> variable from the <a href="http://gss.norc.org/">General Social Survey</a> has only been available in Stata. Stata code for <em>reltrad</em> is available from <a href="http://lifewayresearch.com/wp-content/uploads/2016/02/Stata_coding_reltrad_2_19_2016.pdf">Lifeway Research</a>.</p>
 <p>I am providing an R translation of the code. I apply this to the 1972-2016 GSS combined data file.</p>
@@ -668,6 +708,108 @@ gss$year = as.factor(gss$year)</code></pre>
 
 
 
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">David Eagle</a></h5>
+    <h6 class="card-subtitle">Associate in Research</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:davideagle@duke.edu" >
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="//twitter.com/davideaglephd" >
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=lXnqAUUAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="//github.com/thebigbird" >
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/files/EagleVita.pdf" >
+          <i class="ai ai-cv"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
 
     
     
@@ -735,6 +877,9 @@ gss$year = as.factor(gss$year)</code></pre>
 
     
     
+    
+    <script src="/js/mathjax-config.js"></script>
+    
 
     
     
@@ -753,9 +898,8 @@ gss$year = as.factor(gss$year)</code></pre>
 
       
       
-    
-
-    <script src="/js/hugo-academic.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
     
 
     
@@ -810,10 +954,21 @@ gss$year = as.factor(gss$year)</code></pre>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    <script src="/js/search.js"></script>
     
 
     
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.2861db6bcf2db4b5eade32c795453e47.js"></script>
+
     
 
   </body>

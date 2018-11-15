@@ -16,7 +16,10 @@
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/reltrad-r/</guid>
-      <description>&lt;p&gt;Haven’t you always wanted an easy to access R script to create the famous &lt;em&gt;reltrad&lt;/em&gt; religious categorizaton in the General Social Survey? Well, today is your lucky day.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;Haven’t you always wanted an easy to access R script to create the famous &lt;em&gt;reltrad&lt;/em&gt; religious categorizaton in the General Social Survey? Well, today is your lucky day.&lt;/p&gt;
 &lt;p&gt;The measure of religious affiliation described in &lt;span class=&#34;citation&#34;&gt;(Steensland et al. 2000)&lt;/span&gt;, otherwise known as &lt;em&gt;reltrad&lt;/em&gt;, remains the most popular way to categorize people religiously in the United States. Early development of the measure was done by Corwin Smidt, Bud Kellstedt and James Guth during their annual seminars on measuring religion offered at Calvin College. The &lt;em&gt;reltrad&lt;/em&gt; crowd continues to think their measure is pretty good &lt;span class=&#34;citation&#34;&gt;(Woodberry et al. 2012)&lt;/span&gt;. A &lt;em&gt;reltrad&lt;/em&gt; for African Americans has been developed - this is required reading for those who use &lt;em&gt;reltrad&lt;/em&gt; in their research &lt;span class=&#34;citation&#34;&gt;(Shelton and Cobb 2017)&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Up until now, the code to create the &lt;em&gt;reltrad&lt;/em&gt; variable from the &lt;a href=&#34;http://gss.norc.org/&#34;&gt;General Social Survey&lt;/a&gt; has only been available in Stata. Stata code for &lt;em&gt;reltrad&lt;/em&gt; is available from &lt;a href=&#34;http://lifewayresearch.com/wp-content/uploads/2016/02/Stata_coding_reltrad_2_19_2016.pdf&#34;&gt;Lifeway Research&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I am providing an R translation of the code. I apply this to the 1972-2016 GSS combined data file.&lt;/p&gt;
