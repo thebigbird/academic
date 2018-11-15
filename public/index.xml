@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Eagle, PhD. on David Eagle, PhD.</title>
-    <link>https://davideagle.netlify.com/</link>
+    <link>/</link>
     <description>Recent content in David Eagle, PhD. on David Eagle, PhD.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Creating the Reltrad Variable in the General Social Survey Using R</title>
-      <link>https://davideagle.netlify.com/post/reltrad-r/</link>
+      <link>/post/reltrad-r/</link>
       <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/post/reltrad-r/</guid>
+      <guid>/post/reltrad-r/</guid>
       <description>
 
 
@@ -326,127 +326,127 @@ gss$year = as.factor(gss$year)&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Disentangling Race and Socioeconomic Status in HealthDisparities Research: an Examination of Black and White Clergy</title>
-      <link>https://davideagle.netlify.com/publication/2018-01-01_case_disentangling_2018/</link>
+      <link>/publication/2018-01-01_case_disentangling_2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2018-01-01_case_disentangling_2018/</guid>
+      <guid>/publication/2018-01-01_case_disentangling_2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Household Charitable Giving at the Intersection of Gender, Marital Status, and Religion</title>
-      <link>https://davideagle.netlify.com/publication/2018-01-01_eagle_household_2018/</link>
+      <link>/publication/2018-01-01_eagle_household_2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2018-01-01_eagle_household_2018/</guid>
+      <guid>/publication/2018-01-01_eagle_household_2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Perceived social support, received social support, and depression among clergy</title>
-      <link>https://davideagle.netlify.com/publication/2018-01-01_eagle_perceived_2018/</link>
+      <link>/publication/2018-01-01_eagle_perceived_2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2018-01-01_eagle_perceived_2018/</guid>
+      <guid>/publication/2018-01-01_eagle_perceived_2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A 2-Year Holistic Health and Stress Intervention: Results of an RCT in Clergy</title>
-      <link>https://davideagle.netlify.com/publication/2017-01-01_proeschold-bell_2-year_2017/</link>
+      <link>/publication/2017-01-01_proeschold-bell_2-year_2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2017-01-01_proeschold-bell_2-year_2017/</guid>
+      <guid>/publication/2017-01-01_proeschold-bell_2-year_2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Prospective Associations Between Depressive Symptoms and the Metabolic Syndrome: the Spirited Life Study of Methodist Pastors in North Carolina</title>
-      <link>https://davideagle.netlify.com/publication/2017-01-01_smith_prospective_2017/</link>
+      <link>/publication/2017-01-01_smith_prospective_2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2017-01-01_smith_prospective_2017/</guid>
+      <guid>/publication/2017-01-01_smith_prospective_2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Honeymoon is Over: Occupational Relocation and Changes in Mental Health Among United Methodist Clergy</title>
-      <link>https://davideagle.netlify.com/publication/2017-01-01_eagle_honeymoon_2017/</link>
+      <link>/publication/2017-01-01_eagle_honeymoon_2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2017-01-01_eagle_honeymoon_2017/</guid>
+      <guid>/publication/2017-01-01_eagle_honeymoon_2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Negative Relationship between Size and the Probability of Weekly Attendance in Churches in the United States</title>
-      <link>https://davideagle.netlify.com/publication/2016-01-01_eagle_negative_2016/</link>
+      <link>/publication/2016-01-01_eagle_negative_2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2016-01-01_eagle_negative_2016/</guid>
+      <guid>/publication/2016-01-01_eagle_negative_2016/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Farmland Protection and Agricultural Land Values at the Urban-Rural Fringe: British Columbia’s Agricultural Land Reserve</title>
-      <link>https://davideagle.netlify.com/publication/2015-01-01_eagle_farmland_2015/</link>
+      <link>/publication/2015-01-01_eagle_farmland_2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2015-01-01_eagle_farmland_2015/</guid>
+      <guid>/publication/2015-01-01_eagle_farmland_2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Historicizing the Megachurch</title>
-      <link>https://davideagle.netlify.com/publication/2015-01-01_eagle_historicizing_2015/</link>
+      <link>/publication/2015-01-01_eagle_historicizing_2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2015-01-01_eagle_historicizing_2015/</guid>
+      <guid>/publication/2015-01-01_eagle_historicizing_2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Methodological considerations in the use of name generators and interpreters</title>
-      <link>https://davideagle.netlify.com/publication/2015-01-01_eagle_methodological_2015/</link>
+      <link>/publication/2015-01-01_eagle_methodological_2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2015-01-01_eagle_methodological_2015/</guid>
+      <guid>/publication/2015-01-01_eagle_methodological_2015/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mega, Medium, and Mini: Size and the Socioeconomic Status Composition of American Protestant Churches</title>
-      <link>https://davideagle.netlify.com/publication/2012-01-01_keister_mega_2012/</link>
+      <link>/publication/2012-01-01_keister_mega_2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2012-01-01_keister_mega_2012/</guid>
+      <guid>/publication/2012-01-01_keister_mega_2012/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Changing Patterns of Attendance at Religious Services in Canada, 1986-2008</title>
-      <link>https://davideagle.netlify.com/publication/2011-01-01_eagle_changing_2011/</link>
+      <link>/publication/2011-01-01_eagle_changing_2011/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2011-01-01_eagle_changing_2011/</guid>
+      <guid>/publication/2011-01-01_eagle_changing_2011/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intersecting Identities as a Source of Religious Incongruence</title>
-      <link>https://davideagle.netlify.com/publication/2011-01-01_read_intersecting_2011/</link>
+      <link>/publication/2011-01-01_read_intersecting_2011/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2011-01-01_read_intersecting_2011/</guid>
+      <guid>/publication/2011-01-01_read_intersecting_2011/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Loosening Bond of Religion on Canadian Society: Reply to Bibby</title>
-      <link>https://davideagle.netlify.com/publication/2011-01-01_eagle_loosening_2011/</link>
+      <link>/publication/2011-01-01_eagle_loosening_2011/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://davideagle.netlify.com/publication/2011-01-01_eagle_loosening_2011/</guid>
+      <guid>/publication/2011-01-01_eagle_loosening_2011/</guid>
       <description></description>
     </item>
     
